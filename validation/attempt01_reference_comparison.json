@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python",
+    "-B",
+    "compare_outputs.py",
+    "--actual",
+    "outputs/summary.json"
+  ],
+  "exit_code": 0,
+  "wall_seconds": null,
+  "measurement_note": "Not measured separately; command and result observed directly",
+  "scope": "Same-environment reference consistency, not independent reproduction",
+  "numeric_tolerance": {
+    "atol": 1e-09,
+    "rtol": 1e-09
+  }
+}

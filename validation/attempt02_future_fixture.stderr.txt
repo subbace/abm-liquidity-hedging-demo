@@ -1,0 +1,6 @@
+test_future_changes_do_not_change_prior_decisions_or_sigma (test_demo.DemoTests) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.115s
+
+OK

@@ -1,0 +1,87 @@
+{
+  "source_revision": "c19ff103d6ad6c3aa9d0baa456c45b3d19ec60bd",
+  "source_repository": "Private MSc thesis research repository",
+  "date": "2026-11-05",
+  "preserved_sources": [
+    {
+      "path": "src/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_path": "src/__init__.py",
+      "latest_source_commit": "68122177a4bbcfa7056dc66ef270d001093ba0d1",
+      "git_author": "Subba Cecchetto",
+      "git_author_date": "2026-05-31",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/abm_simulator.py",
+      "sha256": "36f77ea5f76a79a7fad78eb8ff910a0768789d4b3d3e17ad4465af021a9035fa",
+      "bytes": 32859,
+      "source_path": "src/abm_simulator.py",
+      "latest_source_commit": "e97576b71cc3f24d16df5993b338f7244d94221c",
+      "git_author": "Subba Cecchetto",
+      "git_author_date": "2026-07-16",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/black_scholes.py",
+      "sha256": "9fa4ebf10fe058cf752e853ee7ac93ceb7fca620b8b63112f2cdccd0e7063883",
+      "bytes": 2869,
+      "source_path": "src/black_scholes.py",
+      "latest_source_commit": "e656c31f497096b6390add4751e29bf6fff74cf2",
+      "git_author": "Subba Cecchetto",
+      "git_author_date": "2026-05-31",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/risk_metrics.py",
+      "sha256": "163b7c4ef5dba0f4e408bd6f2dbf9cd02ee26ee27c9a7ad1b5f209c1146d6b16",
+      "bytes": 5487,
+      "source_path": "src/risk_metrics.py",
+      "latest_source_commit": "e656c31f497096b6390add4751e29bf6fff74cf2",
+      "git_author": "Subba Cecchetto",
+      "git_author_date": "2026-05-31",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/causal_hedging_data.py",
+      "sha256": "3f33a3a13f0f02f8260e38cc36b19cf8d7cdccd569d4cca90f83434d5d213454",
+      "bytes": 43551,
+      "source_path": "src/causal_hedging_data.py",
+      "latest_source_commit": "b92a8ee5f7dc0fe55d4d63506a1ce5a71b9ac9a6",
+      "git_author": "Subba Cecchetto",
+      "git_author_date": "2026-07-19",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/causal_black_scholes_baseline.py",
+      "sha256": "088cfd5fb6781b580e6cb63433cebfad7551359b8888d0c8fd73aa220c6edf29",
+      "bytes": 49172,
+      "source_path": "src/causal_black_scholes_baseline.py",
+      "latest_source_commit": "95dfac55287d95457e75033e011736fefb13bb7a",
+      "git_author": "Subba Cecchetto",
+      "git_author_date": "2026-07-24",
+      "byte_preserved": true
+    }
+  ],
+  "configuration_source": {
+    "path": "run_market_regimes.py",
+    "sha256": "4c1033a16041a08e3d75c8607176176d2cf1973a0fd3a81aea2e1f7943987307",
+    "extract": "baseline_stable and low_liquidity with common_stress_parameters",
+    "change": "Only seed replaced by disclosed public demo seed 20261105"
+  },
+  "new_demo_files": [
+    "run_demo.py",
+    "compare_outputs.py",
+    "tests/test_demo.py"
+  ],
+  "rights_confirmation": "Owner explicitly confirmed dissemination rights for own thesis code; no open-source licence is assigned automatically.",
+  "excluded": [
+    "Real or licensed market data",
+    "Private datasets",
+    "Neural weights",
+    "Training",
+    "Full research result matrices",
+    "Git history"
+  ]
+}

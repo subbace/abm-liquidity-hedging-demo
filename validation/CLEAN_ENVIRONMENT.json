@@ -1,0 +1,92 @@
+{
+  "date_utc": "2026-11-05T21:37:06.359738+00:00",
+  "slug": "abm-liquidity-hedging-demo",
+  "fresh_local_git_clone": true,
+  "local_source_commit": "20fac7ba3b02ef44fe6af65566eeffcc99050e39",
+  "byte_identity_before_execution": true,
+  "steps": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "install",
+        "--disable-pip-version-check",
+        "-r",
+        "requirements.txt"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 1.42812
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 12.439575
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "run_demo.py",
+        "--output-dir",
+        "outputs"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 3.690544
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "compare_outputs.py",
+        "--actual",
+        "outputs/summary.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.149811
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.838601
+    }
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "isolated_prefix": true
+  },
+  "installed_distributions": [
+    "contourpy==1.4.0",
+    "cycler==0.12.1",
+    "fonttools==4.68.0",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.9.4",
+    "numpy==2.0.2",
+    "packaging==26.3",
+    "pandas==2.3.3",
+    "pillow==13.0.0",
+    "pyparsing==3.3.3",
+    "python-dateutil==4.0.0",
+    "pytz==2026.6",
+    "scipy==1.13.1",
+    "tzdata==2026.6"
+  ],
+  "status": "PASS",
+  "unit_tests_passed": 8,
+  "source_changes_after_validation": "Documentation and release metadata only; tested source code unchanged."
+}

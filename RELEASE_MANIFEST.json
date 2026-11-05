@@ -1,0 +1,157 @@
+{
+  "schema": "public-demo-release-v1",
+  "repository": "subbace/abm-liquidity-hedging-demo",
+  "date": "2026-11-05",
+  "role": "PUBLIC_REDUCED_DEMONSTRATION",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705FD4D6451A31D36B3DF7DE96F83F30AC976C9B4A6D1E51671D8E2F33E2D0DA"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 77,
+      "sha256": "C5C38949FA038B8E95F14046C45BEE373C96A6474A4D3D5DD89F78D3E85EFCE5"
+    },
+    {
+      "path": "compare_outputs.py",
+      "bytes": 1833,
+      "sha256": "F18BC3E42E167CEA72785821716414802C5FAB825EFCA7B089FD931CE4314F8B"
+    },
+    {
+      "path": "examples/expected_summary.json",
+      "bytes": 3884,
+      "sha256": "500284A385D8818B26713F66DEC835C36485DC522BB16CEA129373638B86016F"
+    },
+    {
+      "path": "examples/synthetic_paths.png",
+      "bytes": 196716,
+      "sha256": "9E342818475C54B4680A4A6D5E3E9D44C7BB80412E015570E6BF2D23369A7B40"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7707,
+      "sha256": "3EBA71A04334F2BEAF9BF9E64DBE575053FC45A3EE6F6947080AD8610741E02E"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 59,
+      "sha256": "FB1015F2811DD40532883EE952F1787D61E19C5E795D37D610F053ECB82250FF"
+    },
+    {
+      "path": "RIGHTS_AND_PROVENANCE.md",
+      "bytes": 3968,
+      "sha256": "02E2445500AAF220AFAC96815493EB33AED4CB98BE9ED957CF46D1CA0756A3FF"
+    },
+    {
+      "path": "run_demo.py",
+      "bytes": 9376,
+      "sha256": "650C05F067892C72567E74D3BBE8727D44BD71BC744676DDDCE45AE4AD4A7E4B"
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 3323,
+      "sha256": "A151485EFA7216A9CC2711252C446F383852B6F0236BC8B7A17960546600C335"
+    },
+    {
+      "path": "src/__init__.py",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "src/abm_simulator.py",
+      "bytes": 32859,
+      "sha256": "36F77EA5F76A79A7FAD78EB8FF910A0768789D4B3D3E17AD4465AF021A9035FA"
+    },
+    {
+      "path": "src/black_scholes.py",
+      "bytes": 2869,
+      "sha256": "9FA4EBF10FE058CF752E853EE7AC93CEB7FCA620B8B63112F2CDCCD0E7063883"
+    },
+    {
+      "path": "src/causal_black_scholes_baseline.py",
+      "bytes": 49172,
+      "sha256": "088CFD5FB6781B580E6CB63433CEBFAD7551359B8888D0C8FD73AA220C6EDF29"
+    },
+    {
+      "path": "src/causal_hedging_data.py",
+      "bytes": 43551,
+      "sha256": "3F33A3A13F0F02F8260E38CC36B19CF8D7CDCCD569D4CCA90F83434D5D213454"
+    },
+    {
+      "path": "src/risk_metrics.py",
+      "bytes": 5487,
+      "sha256": "163B7C4EF5DBA0F4E408BD6F2DBF9CD02EE26EE27C9A7AD1B5F209C1146D6B16"
+    },
+    {
+      "path": "tests/test_demo.py",
+      "bytes": 5071,
+      "sha256": "2022EA915D712B2AF7328D8516EB84C736D65D23880DD7FA79D19C3CFF70A936"
+    },
+    {
+      "path": "validation/attempt01_demo.json",
+      "bytes": 294,
+      "sha256": "06A03B2145AC5A7B3E0A011976CC2BDA45B2BF9BA5B73D099D49DC4FDAA636B2"
+    },
+    {
+      "path": "validation/attempt01_demo.stderr.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "validation/attempt01_demo.stdout.txt",
+      "bytes": 131,
+      "sha256": "595C733B025A64EBA2AA279D915023AAE3A8E6CF7972FD1938360474600A8C8F"
+    },
+    {
+      "path": "validation/attempt01_reference_comparison.json",
+      "bytes": 412,
+      "sha256": "7ED6D4B3BA0A5504C244FA263C09052B363B50F08C5A4599CBB6EB35448A3A95"
+    },
+    {
+      "path": "validation/attempt01_tests.json",
+      "bytes": 527,
+      "sha256": "DE50D212BB950D3E4799BE1EC89BA9157E710DB2E625FB5F9B63CB42D034F513"
+    },
+    {
+      "path": "validation/attempt01_tests.stderr.txt",
+      "bytes": 1250,
+      "sha256": "13461F899FB45627A00BC5C442988EF359BC8570A37F0650FCC6AC600ACF125E"
+    },
+    {
+      "path": "validation/attempt01_tests.stdout.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "validation/attempt02_future_fixture.json",
+      "bytes": 770,
+      "sha256": "C053FE0EFA6331548C11A8628530EE2B93EA50DFF1189F63D25844F69D3C352D"
+    },
+    {
+      "path": "validation/attempt02_future_fixture.stderr.txt",
+      "bytes": 191,
+      "sha256": "3A9B09BE9B24793A5EE223415DF2762368229494DF6B819245F5E6A2A98371EE"
+    },
+    {
+      "path": "validation/attempt02_future_fixture.stdout.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "validation/CLEAN_ENVIRONMENT.json",
+      "bytes": 1983,
+      "sha256": "10F375F72B122474E21A97C1372FD44586E176036D017303DD2A57C8444F1023"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 4858,
+      "sha256": "13093E0464510A7CE51E9126D1F96C9B15F0721FF76F561459BD1BD1AB1AB9AC"
+    }
+  ],
+  "manifest_self_excluded": true,
+  "private_originals_unchanged": true,
+  "owner_distribution_rights_confirmed": true,
+  "economic_validation": false
+}

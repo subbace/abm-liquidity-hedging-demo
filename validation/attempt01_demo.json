@@ -1,0 +1,13 @@
+{
+  "attempt": 1,
+  "command": [
+    "python",
+    "-B",
+    "run_demo.py",
+    "--output-dir",
+    "outputs"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 3.8627766,
+  "scope": "Two synthetic 5001-row paths, four predeclared windows each; no training, real data or parameter search"
+}

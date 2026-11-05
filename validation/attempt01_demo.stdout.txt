@@ -1,0 +1,1 @@
+{"role": "PUBLIC_REDUCED_DEMONSTRATION", "scenarios": 2, "windows": 8, "wall_seconds": 1.1958005000000003, "cpu_seconds": 1.1875}

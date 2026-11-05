@@ -1,0 +1,21 @@
+test_cash_reconciles_with_independent_decimal_recursion (test_demo.DemoTests) ... ok
+test_future_changes_do_not_change_prior_decisions_or_sigma (test_demo.DemoTests) ... FAIL
+test_invalid_prices_are_rejected (test_demo.DemoTests) ... ok
+test_original_full_path_adapter_guard_is_preserved (test_demo.DemoTests) ... ok
+test_preserved_source_provenance (test_demo.DemoTests) ... ok
+test_same_seed_reproduces_small_synthetic_path (test_demo.DemoTests) ... ok
+test_tail_metrics_on_hand_calculated_losses (test_demo.DemoTests) ... ok
+test_zero_demand_liquidity_floor_has_known_solution (test_demo.DemoTests) ... ok
+
+======================================================================
+FAIL: test_future_changes_do_not_change_prior_decisions_or_sigma (test_demo.DemoTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<demo-root>\tests\test_demo.py", line 66, in test_future_changes_do_not_change_prior_decisions_or_sigma
+    self.assertNotEqual(before.hedging_error, after.hedging_error)
+AssertionError: -0.10246100677278491 == -0.10246100677278491
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.156s
+
+FAILED (failures=1)

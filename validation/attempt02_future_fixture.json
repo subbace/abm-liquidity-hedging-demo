@@ -1,0 +1,20 @@
+{
+  "attempt": 2,
+  "command": [
+    "python",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-k",
+    "future",
+    "-v"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 3.8984829000000003,
+  "scope": "Only the failed causality fixture, after changing its future-price shock and testing affected delta rather than requiring a changed final hedging error",
+  "original_failure": "Seven other cases passed. A positive price shock can preserve the final hedging error when the hedge is saturated; unchanged final PnL is not evidence of a causality failure. Exact prefix checks were not relaxed.",
+  "stderr_paths": "Local root normalized to <demo-root>; original failing stderr retained under ignored validation/local_only."
+}

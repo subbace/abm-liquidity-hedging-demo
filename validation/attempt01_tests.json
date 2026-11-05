@@ -1,0 +1,26 @@
+{
+  "attempt": 1,
+  "command": [
+    "python",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "python": "3.9.1",
+  "dependencies": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.13.1",
+    "matplotlib": "3.9.4"
+  },
+  "exit_code": 1,
+  "wall_seconds": 11.946702,
+  "cpu_seconds": null,
+  "cpu_note": "Child CPU time not measured by the harness",
+  "stdout_file": "attempt01_tests.stdout.txt",
+  "stderr_file": "attempt01_tests.stderr.txt"
+}
